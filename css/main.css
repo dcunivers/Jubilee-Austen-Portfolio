@@ -10,21 +10,6 @@ body {
     overflow: auto;
 }
 
-/****** GRID ******/
-.full-width {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
-}
-.half-width {
-    width: 600px;
-    float: left
-}
-.third-width {
-    width: 400px;
-    float: left;
-}
-
 /***** HEADER *****/
 
 .homepage-hero {
@@ -122,7 +107,7 @@ header h2 {
 
 /***** CONTACT *****/
 #contact {
-    background: #ebebeb;
+    background: #f9e9e9;
 }
 #contact .content-wrapper {
     padding: 110px 0;
@@ -155,7 +140,7 @@ header h2 {
 
 #contact h3 {
     font-size: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 36px;
 }
 #contact #email-header {
@@ -164,6 +149,7 @@ header h2 {
 
 #contact #envelope {
     margin-right: 10px;
+    width: 30px;
 }
 #contact #socialmedia-header {
     font-weight: bold;
@@ -175,7 +161,8 @@ header h2 {
     text-decoration: none;
     color: #C49075;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 36px;
 }
 #contact ul {
     list-style: none;
@@ -186,4 +173,49 @@ header h2 {
 }
 #contact ul img{
     padding-right: 38px;
+    width: 35px;
+}
+
+/******** Project Page ********/
+header.projectpage-hero {
+    background:#f5e4e7;
+}
+
+/****** Projects Page 'Projects' Styles ******/
+#projects {
+    background: #f5f5f5;
+    text-align: center;
+}
+#projects .content-wrapper {
+    padding: 115px 0px;
+}
+
+#projects .project-piece {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#projects img {
+    padding-bottom: 30px;
+    width: 300px;
+}
+
+#projects h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#projects h3 a {
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #5e5d5e;
+}
+#projects p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
 }
